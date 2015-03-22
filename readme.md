@@ -1,6 +1,9 @@
-#Or2-Upyun超简单又拍云php上传插件
-author:Copriwolf
-first vision:2015.03.23
+#Or2-Upyun(超简单又拍云php上传插件)
+Author:Copriwolf
+
+First  Version: v1.0
+
+Latest Version: v1.0
 
 #简介
 运用又拍云官方sdk制作的超级简单上传插件.
