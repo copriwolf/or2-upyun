@@ -3,7 +3,7 @@ Author:Copriwolf
 
 First  Version: v1.0
 
-Latest Version: v1.1
+Latest Version: v1.2
 
 #简介
 运用又拍云官方sdk制作的超级简单上传插件.
@@ -11,6 +11,7 @@ Latest Version: v1.1
 #特点
 - 简单易用，全html无flash适合多个客户端
 - 单用户登录验证
+- 可变的上传目录
 - 默认上传到根目录，上传成功后返回upyun的url
 
 #设置
@@ -20,13 +21,16 @@ Latest Version: v1.1
 直接把整个文件夹上传到服务器某指定目录
 
 #挖坑
-- 上传页面才用账号认证
-- 选择空间上传
+- ~~上传页面才用账号认证~~
+- ~~选择空间上传~~
 
 #后记
 纯属php初学练手
 
 #更新
 - v1.1
-  - 增加单用户验证机制
+  - 增加`单用户验证机制`功能
+  - bugs fix
+- v1.2
+  - 增加`可变的上传目录`功能
   - bugs fix

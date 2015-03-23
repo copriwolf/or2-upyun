@@ -37,7 +37,7 @@ if (is_uploaded_file($_FILES['upload_file']['tmp_name'])!= 0) {
 	$file_name = $_FILES['upload_file']['name'];
 	$file_tmpname = $_FILES['upload_file']['tmp_name'];
 	$file_handler = fopen($file_tmpname, 'r');
-	$upyun->writeFile('/'.$file_name, $file_handler,true);
+	$upyun->writeFile($file_dir.$file_name, $file_handler,true);
   fclose($file_handler);
 
 }
@@ -49,7 +49,7 @@ exit;
 
 //error!?
 	try {
-    $upyun->getFolderUsage('/');
+    $upyun->getFolderUsage($file_dir);
     //your code here
 
 } catch(Exception $e) {
