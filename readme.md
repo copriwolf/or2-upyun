@@ -25,3 +25,8 @@ Latest Version: v1.1
 
 #后记
 纯属php初学练手
+
+#更新
+- v1.1
+  - 增加单用户验证机制
+  - bugs fix
