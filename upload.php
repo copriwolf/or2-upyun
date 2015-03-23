@@ -1,6 +1,7 @@
 <?php
 require_once('upyun.class.php');
 require_once('config.php');
+$upyun = new upyun("$bucketname", "$operator_name", "$operator_pwd","$UpYun_net");
 
 //Check the file uploaded status
 if ($_FILES['userfile']['error']>0) {
